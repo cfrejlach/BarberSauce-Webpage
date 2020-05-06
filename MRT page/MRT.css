@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'chicagoregular';
+    src: url('chicago_regular-webfont.woff2') format('woff2'),
+         url('chicago_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+	font-family: chicagoregular;
+}
+
+body{
+	background-color:#4842bd;
+	border: 20px solid;
+	border-color: #342cd3;
+	margin:0px 0px 0px 0px;
+}
+
+.container{
+   display:inline-block;
+}
+
+#canvasLeft{
+    position: absolute;
+    right: 80%;
+    margin-top: 30px;
+    width: 300px;
+    height: 800px;
+    padding-left: 0px;
+    
+}
+
+#canvasRight{
+    position: absolute;
+    left: 70%;
+    margin-top: 30px;
+    width: 300px;
+    height: 800px;
+}
+
+.contentWrapper{
+
+}
+
+.logo{
+    padding-left: 70px;
+	text-align:center;
+	padding-top: 100px;
+}
+
+.comics{
+    padding-left: 70px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.frontCover{
+    padding-left: 70px;
+	text-align:center;
+}
+
+a{
+	color:#f1800e;
+}
+
+a:hover{
+	color:#F33;
+}
+
+.row{
+    
+	display:inline;
+}
+
+nav ul li:first-child {float: left; }
+
+nav ul li { 
+  list-style:none;
+  margin:40px;
+  float: right; 
+}
+h1{
+	text-align:center;
+}
+
+h1, h2{
+	color:#F33;
+}
+.contact{
+	text-align:center;
+}
+
+h2, .email{display:inline-block;}
+
+.animation, canvas{
+    padding-left: 125px;
+}
+
+@media (max-width: 580px){    }
